@@ -1,1 +1,9 @@
-body{background-color: 	#E0FFFF;}
+body{background-color: 	#E0FFFF;
+}
+
+img{
+    width: 50%;
+}
+figure{
+    text-align: center;
+}

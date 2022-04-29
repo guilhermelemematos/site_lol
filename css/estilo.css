@@ -1,4 +1,4 @@
-body{background-color: 	#E0FFFF;
+body{background-color: 	#535c5c;
 }
 
 .img_topo{
@@ -20,12 +20,12 @@ figure{
 
 h1{
     text-align: center;
-    color: #ffff;
+    color: rgb(0, 0, 0);
 }
 
 p{
     font-size: 1.5rem;
-    color: #ffff;
+    color: rgb(0, 0, 0);
     text-align: justify;
     text-indent: 40px;
 }

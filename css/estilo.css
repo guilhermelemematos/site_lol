@@ -29,3 +29,23 @@ p{
     text-align: justify;
     text-indent: 40px;
 }
+
+.parag_funcao > p{
+
+    font-size: 3em;
+}
+
+.fundo_diferente{
+    background-image: linear-gradient(to right, #252020 , #fff);
+}
+
+.pinta_botao{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to right, #252020 , #fff);
+    margin: auto
+}
+
+.botao{
+    padding-top: 15px;
+}

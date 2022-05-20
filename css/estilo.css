@@ -21,6 +21,8 @@ figure{
 h1{
     text-align: center;
     color: rgb(0, 0, 0);
+    font-size: 4em;
+    margin-top: 1%;
 }
 
 p{
@@ -48,4 +50,12 @@ p{
 
 .botao{
     padding-top: 15px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.iten_menu{
+
 }

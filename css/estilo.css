@@ -3,10 +3,13 @@ body{background-color: 	#535c5c;
 
 .img_topo{
     width: 100%;
+    margin-bottom: 2%;
 }
 
 .img_corpo{
     width: 40%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 figure{
@@ -57,5 +60,51 @@ html{
 }
 
 .iten_menu{
+    line-height: 1.5;
+  text-align: center;
+}
 
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.menu, footer{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1.5%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.iten_menu a:link{
+    color: red;
+}
+
+.iten_menu a:visited{
+    color: green
+}
+
+.iten_menu a:hover{
+    color: black;
+}
+.iten_menu a:active{
+    color: blue
+}
+
+.container a:link{
+    color: red;
+}
+
+.container a:visited{
+    color: green
+}
+
+.container a:hover{
+    color: black;
+}
+.container a:active{
+    color: blue
 }

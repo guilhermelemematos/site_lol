@@ -32,27 +32,32 @@ p{
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
     text-align: justify;
-    text-indent: 40px;
+    line-height: 1.3;
+    /* text-indent: 40px; */
 }
 
-.parag_funcao > p{
+.parag_funcao p{
 
-    font-size: 3em;
+    font-size: 2.0rem;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    line-height: 1.3;
 }
 
 .fundo_diferente{
-    background-image: linear-gradient(to right, #252020 , #fff);
+    background-color: #535c5c;
 }
 
 .pinta_botao{
     width: 150px;
     height: 50px;
-    background-image: linear-gradient(to right, #252020 , #fff);
+    background-color: #535c5c;
     margin: auto
 }
 
 .botao{
     padding-top: 15px;
+    text-align: center;
 }
 
 html{
@@ -108,3 +113,29 @@ footer p{
 .container a:active{
     color: blue
 }
+h2{
+    text-align: center;
+    color: rgba(29, 204, 29, 0.692);
+    font-size: 4em;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+
+.controle p{
+    text-align: justify;
+}
+
+.escondido{
+    display: none;
+}
+
+.jogabilidade{
+    float: right;
+    width: 500px;
+    margin-left: 5px;
+}
+
+.pinta_botao:hover{
+    color: red
+}
+

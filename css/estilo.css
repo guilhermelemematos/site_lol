@@ -121,6 +121,10 @@ h2{
     padding-bottom: 2%;
 }
 
+footer > p{
+    font-size: 1.5em;
+}
+
 .controle p{
     text-align: justify;
 }
@@ -135,7 +139,10 @@ h2{
     margin-left: 5px;
 }
 
-.pinta_botao:hover{
+.botao a:hover{
     color: red
 }
 
+.botao a:link{
+    color: blue;
+}

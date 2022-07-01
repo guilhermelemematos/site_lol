@@ -150,3 +150,22 @@ footer > p{
 a{
     text-decoration: none;
 }
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th{
+    font-size: 1.5em
+
+}
+
+th,td{
+    border: 5px ridge #000000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    
+}

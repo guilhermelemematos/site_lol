@@ -79,7 +79,7 @@ html{
 .menu, footer{
     background-color: rgba(0, 0, 0, 0.2);
     padding: 1.5%;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Righteous', cursive;
 }
 
 footer p{
@@ -158,6 +158,8 @@ a{
 table{
     border-collapse: collapse;
     width: 100%;
+    font-family: 'Lobster Two', cursive;
+
     
 }
 
@@ -172,4 +174,16 @@ th,td{
     padding-bottom: 1%;
     text-align: center;
     
+}
+
+audio{
+    width: 70%;
+}
+
+td:first-child{
+    width: 40%;
+  }
+
+td:first-child + td{
+    width: 60%;
 }

@@ -191,8 +191,9 @@ td:first-child + td{
 .borda{
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 50px;
     margin-bottom: 20px;
+    box-sizing: border-box;
 }
 .col-25 {
     float: left;
@@ -205,4 +206,52 @@ td:first-child + td{
     width: 75%;
     margin-top: 6px;
 }
-  
+
+label{
+    padding: 12px 12px 12px 0px;
+    font-family: 'Luckies Guy', cursive;
+
+}
+
+input[type=text], select, textarea, input[type=tel], input[type=email]{
+    width: 90%;
+    padding: 12px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-family: 'Luckies Guy', cursive;
+
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    font-family: 'Luckies Guy', cursive;
+  }
+
+  .row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row-botao{
+    margin-top: 2%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

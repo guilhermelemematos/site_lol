@@ -15,22 +15,74 @@
         p{
             background-color: seashell;
         }
-        div{
+        /* div{
             width: 100px;
             height: 50px;
             background-color: azure;
             margin: auto;
-        }
+        } */
         .botao{
             padding-top: 15px;
             text-align: center;
         }
+
+        .container{
+            width: 100%;
+            background-color: black;
+            padding-bottom: 1220px;
+            position: relative;
+        }
+
+        .topodir{
+            position: absolute;
+            background-color: blue;
+            right: 16px;
+            top: 50px;
+            width: 20%;
+        }
+
+        .topoesq{
+            position: absolute;
+            background-color: rgb(0, 255, 42);
+            left: 16px;
+            top: 50px;
+            width: 20%;
+        }
+
+        .baixodir{
+            position: absolute;
+            background-color: rgb(255, 0, 0);
+            right: 16px;
+            bottom: 10px;
+            width: 20%;
+        }
+
+        .baixoesq{
+            position: absolute;
+            background-color: rgb(251, 255, 0);
+            left: 16px;
+            bottom: 10px;
+            width: 20%;
+        }
+
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">CSS interno e inline</h1>
-    <p style="border-color: black; border-style: groove;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sequi nesciunt accusamus asperiores, dicta modi ut ipsum itaque repudiandae, repellendus tenetur beatae possimus illum mollitia sed, eius tempore maiores fugiat?</p>
-    <p style="border-color: black; border-style: groove;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facere eos iure natus impedit a, veniam non placeat possimus quod architecto? Eaque quibusdam consectetur libero reprehenderit provident beatae! Beatae, ab.</p>
-    <a href="index.html"><div><p class="botao">HOME</p></div></a>
+    <header>
+        <h1 class="fixo" style="text-align: center;">CSS interno e inline</h1>
+        <p style="border-color: black; border-style: groove;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sequi nesciunt accusamus asperiores, dicta modi ut ipsum itaque repudiandae, repellendus tenetur beatae possimus illum mollitia sed, eius tempore maiores fugiat?</p>
+        <p style="border-color: black; border-style: groove;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facere eos iure natus impedit a, veniam non placeat possimus quod architecto? Eaque quibusdam consectetur libero reprehenderit provident beatae! Beatae, ab.</p>
+        <a href="index.html"><div><p class="botao">HOME</p></div></a>
+    </header>
+<div class="main">
+    <div class="container">
+        <h1>Teste...</h1>
+        <div class="topodir">topodir</div>
+        <div class="topoesq">topoesq</div>
+        <div class="baixodir">baixodir</div>
+        <div class="baixoesq">baixoesq</div>
+        <div class="centro">centro</div>
+    </div>
+</div>
 </body>
 </html>

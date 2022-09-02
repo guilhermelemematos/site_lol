@@ -25,6 +25,14 @@
             padding-top: 15px;
             text-align: center;
         }
+
+        .container{
+            width: 100%;
+            height: 1220px;
+            top: 60px;
+            background-color: black;
+            position: relative;
+        }
         
         .fixo{
             position: fixed;
@@ -33,14 +41,11 @@
             top:0;
         }
 
-        .container{
+        .cabe{
             width: 100%;
-            background-color: black;
-            padding-bottom: 1220px;
             position: relative;
+            top: 60px;
         }
-        
-        
 
         .topodir{
             position: absolute;
@@ -74,14 +79,25 @@
             width: 20%;
         }
 
+        .centro{
+            position: absolute;
+            top: 50%;
+            text-align: center;
+            font-size: 18px;
+            background-color: rgb(255, 255, 255);
+            left: 50%;
+            padding: 20px;
+        }
+
     </style>
 </head>
 <body>
     <header>
         <h1 class="fixo" style="text-align: center;">CSS interno e inline</h1>
-        <p style="border-color: black; border-style: groove;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sequi nesciunt accusamus asperiores, dicta modi ut ipsum itaque repudiandae, repellendus tenetur beatae possimus illum mollitia sed, eius tempore maiores fugiat?</p>
-        <p style="border-color: black; border-style: groove;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facere eos iure natus impedit a, veniam non placeat possimus quod architecto? Eaque quibusdam consectetur libero reprehenderit provident beatae! Beatae, ab.</p>
-        <a href="index.html"><div><p class="botao">HOME</p></div></a>
+        <div class="cabe">
+            <p style="border-color: black; border-style: groove;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sequi nesciunt accusamus asperiores, dicta modi ut ipsum itaque repudiandae, repellendus tenetur beatae possimus illum mollitia sed, eius tempore maiores fugiat?</p>
+            <p style="border-color: black; border-style: groove;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facere eos iure natus impedit a, veniam non placeat possimus quod architecto? Eaque quibusdam consectetur libero reprehenderit provident beatae! Beatae, ab.</p>
+        </div>
     </header>
 <div class="main">
     <div class="container">
@@ -92,6 +108,11 @@
         <div class="baixoesq">baixoesq</div>
         <div class="centro">centro</div>
     </div>
+
 </div>
+
+<a href="index.html"><div><p class="botao">HOME</p></div></a>        
+
+
 </body>
 </html>

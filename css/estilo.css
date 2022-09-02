@@ -1,6 +1,24 @@
 body{background-color: 	#535c5c;
 }
 
+header{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    background-color: #535c5c;
+    padding: 1.5%;
+    font-family: 'Righteous', cursive;
+}
+
+.fixo{
+    position: fixed;
+}
+
+.banner{
+    margin-top: 23%;
+}
+
 .img_topo{
     width: 100%;
     margin-bottom: 2%;
@@ -76,7 +94,7 @@ html{
     padding-bottom: 1%;
 }
 
-.menu, footer{
+.footer{
     background-color: rgba(0, 0, 0, 0.2);
     padding: 1.5%;
     font-family: 'Righteous', cursive;

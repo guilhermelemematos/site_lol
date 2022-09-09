@@ -1,4 +1,5 @@
-body{background-color: 	#535c5c;
+body{
+    background-color: 	#535c5c;
 }
 
 header{
@@ -9,14 +10,18 @@ header{
     background-color: #535c5c;
     padding: 1.5%;
     font-family: 'Righteous', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fixo{
     position: fixed;
-}
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 
-.banner{
-    margin-top: 23%;
 }
 
 .img_topo{
@@ -87,6 +92,7 @@ html{
 .iten_menu{
     line-height: 1.5;
     text-align: center;
+    font-size: 2em;
 }
 
 .logo{
@@ -272,4 +278,31 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
+
+    .banner{
+        margin-top: 40%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    header{
+        flex-direction: row;
+    }
+
+    .iten_menu{
+        position: absolute;
+        right: 3%;
+        top: 30%;
+        width: 60%;
+    }
+
+    .iten_menu ul li{
+        display: inline;
+        margin-left: 1%;
+    }
+
+    .banner{
+        margin-top: 8%;
+    }
+
 }

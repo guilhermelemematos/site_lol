@@ -30,7 +30,7 @@ header{
 }
 
 .img_corpo{
-    width: 40%;
+    width: 20%;
     margin-bottom: 2%;
     margin-top: 2%;
 }
@@ -95,11 +95,6 @@ html{
     font-size: 2em;
 }
 
-.logo{
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
 .footer{
     background-color: rgba(0, 0, 0, 0.2);
     padding: 1.5%;
@@ -153,6 +148,9 @@ footer > p{
     font-size: 1.5em;
 }
 
+.controle{
+    margin-bottom: 5%;
+}
 .controle p{
     text-align: justify;
 }
@@ -163,8 +161,8 @@ footer > p{
 
 .jogabilidade{
     float: right;
-    width: 500px;
-    margin-left: 5px;
+    width: 800px;
+    margin-left: 50px;
 }
 
 .botao a:hover{
@@ -272,6 +270,9 @@ input[type=submit]:hover {
     margin-top: 2%;
 }
 
+.descer2{
+    margin-top: 20%;
+}
 
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
@@ -280,8 +281,28 @@ input[type=submit]:hover {
     }
 
     .banner{
-        margin-top: 40%;
+        margin-top: 100%;
     }
+
+    .logo{
+        padding-top: 0%;
+        padding-bottom: 1%;
+        margin-top: 10%;
+    }
+
+    .descer{
+        margin-top: 90%;
+    }
+
+    .jogabilidade{
+        width: 150px;
+    }
+
+    .descer2{
+        margin-top: 100%;
+    }
+
+    
 }
 
 @media screen and (min-width: 601px) {
@@ -303,6 +324,17 @@ input[type=submit]:hover {
 
     .banner{
         margin-top: 8%;
+    }
+
+    .logo{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: left;
+        width: 30%;
+    }
+
+    .descer{
+        margin-top: 10%;
     }
 
 }
